@@ -2,17 +2,20 @@
 
 This project is a web-based application designed to help users plan their trips by interacting with an AI assistant. The app uses the Streamlit framework for the frontend, and the OpenAI API for generating personalized travel recommendations. The assistant provides suggestions for destinations, activities, accommodations, transportation, and other travel-related needs based on user preferences.
 ## Features
+AI-powered Travel Planning: Interact with an AI assistant to get personalized travel suggestions tailored to your preferences.
 
-    AI-powered Travel Planning: Interact with an AI assistant to get personalized travel suggestions tailored to your preferences.
-    
-    Real-Time Chat: Chat with the assistant in real-time, asking for recommendations on destinations, activities, accommodations, and more.
-    
-    Weather and Local Events: Get up-to-date information on weather forecasts and local events to help you plan your trip.
-    
-    Budget-Friendly: The AI provides options for activities, flights, hotels, and itineraries that fit within the user's budget and interests.
-    
-    Streaming Responses: The assistant responds with streaming content, making the conversation feel natural and interactive.
+Real-Time Chat: Chat with the assistant in real-time, asking for recommendations on destinations, activities, accommodations, and more.
 
+Weather and Local Events: Get up-to-date information on weather forecasts and local events to help you plan your trip.
+
+Budget-Friendly: The AI provides options for activities, flights, hotels, and itineraries that fit within the user's budget and interests.
+
+Streaming Responses: The assistant responds with streaming content, making the conversation feel natural and interactive.
+
+# Screenshots
+![AI Trip Planner-gif](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-gif.gif)
+![AI Trip Planner-s1](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-s1.png)
+![AI Trip Planner-s2](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-s2.png)
 ## Requirements
 
 To run this application, you'll need to install the following Python packages:
@@ -58,10 +61,6 @@ Code Walkthrough
  * Session State: The st.session_state is used to store the conversation history, so the assistant can maintain context between different user inputs.
  * Chat Streaming: The app uses streaming responses to provide a real-time conversational experience. The assistant’s replies are displayed progressively as they are generated, simulating a natural flow.
 
-## Error Handling
- * API Key Errors: If the API keys are missing or invalid, the app will display an error message and stop execution.
- * Connection Issues: If there is an issue communicating with the OpenAI API, an error message is displayed, and the conversation is interrupted.
- * Empty Input: If the user submits an empty message, the assistant will prompt them to enter a valid message.
 
 ## Contributing
 
