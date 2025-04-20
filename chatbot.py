@@ -27,7 +27,7 @@ except Exception as e:
     st.error(f"Error loading environment variables: {e}")
     st.stop()
 # Set page title
-st.title("AI Trip planner")
+st.header("AI Trip planner")
 
 client = OpenAI(
     base_url=baseurl,
@@ -48,14 +48,14 @@ if prompt := st.chat_input("What is up?"):
     # Check if prompt is not empty
     if prompt.strip():
         # Display user message
-        with st.chat_message("user"):
+        with st.chat_message("user",avatar='😎'):
             st.markdown(prompt)
         
         # Add user message to history
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         # Generate and display assistant response
-        with st.chat_message("assistant"):
+        with st.chat_message("assistant",avatar='🤖'):
             message_placeholder = st.empty()
             full_response = ""
             
@@ -96,5 +96,5 @@ if prompt := st.chat_input("What is up?"):
         # Add assistant response to history
         st.session_state.messages.append({"role": "assistant", "content": full_response})
     else:
-        with st.chat_message("assistant"):
+        with st.chat_message("assistant",avatar='🤖'):
             st.markdown("Please enter a valid message to continue the conversation!")
