@@ -13,9 +13,9 @@ Budget-Friendly: The AI provides options for activities, flights, hotels, and it
 Streaming Responses: The assistant responds with streaming content, making the conversation feel natural and interactive.
 
 # Screenshots
-![AI Trip Planner-gif](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-gif.gif)
 ![AI Trip Planner-s1](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-s1.png)
 ![AI Trip Planner-s2](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-s2.png)
+![AI Trip Planner-gif](https://raw.githubusercontent.com/Mangaleshwaran2002/AI-Trip-Planner/refs/heads/master/Screenshot/AI-Trip-planner-gif.gif)
 ## Requirements
 
 To run this application, you'll need to install the following Python packages:
